@@ -167,7 +167,7 @@ class _CartpageState extends State<Cartpage> {
                                               ),
                                               Text(
                                                 '$quantity',
-                                                style: TextStyle(fontSize: 18),
+                                                style: TextStyle(fontSize: 20),
                                               ),
                                               IconButton(
                                                 icon: Icon(Icons.add_circle, color: Colors.brown),
@@ -197,36 +197,28 @@ class _CartpageState extends State<Cartpage> {
                             );
                           },
                         ),
-                        SizedBox(height: 10),
-                        Container(
-                          color: Colors.brown,
-                          padding: EdgeInsets.all(16),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                'Total Price:',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: screenWidth * 0.05,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              Text(
-                                '\$${totalPrice.toStringAsFixed(2)}',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: screenWidth * 0.05,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
                       ],
                     );
                   },
                 ),
+              ),
+            ),
+            Container(
+              color: Colors.brown,
+              padding: EdgeInsets.all(16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    '\$Total Price:',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: screenWidth * 0.05,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+
+                ],
               ),
             ),
           ],
