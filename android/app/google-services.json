@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109682896133",
+    "project_id": "kerbros-60f96",
+    "storage_bucket": "kerbros-60f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109682896133:android:08c43645b2e6bbbcc65b6c",
+        "android_client_info": {
+          "package_name": "com.example.kerbros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6w_jeKOFvAEKtcej127B6dfXjMhRV7B4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
